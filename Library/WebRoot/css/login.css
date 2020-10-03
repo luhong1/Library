@@ -1,0 +1,245 @@
+
+.fl {
+    float: left;
+    display: inline;
+}
+.fr {
+    float: right;
+    display: inline;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    clear: both;
+    zoom: 1;
+}
+.txtEllipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: keep-all;
+}
+
+
+
+.simplePassword-pop{
+	/*padding:30px 0;*/
+	text-align:center;
+}
+.warning-img{
+	/*padding-top:30px;*/
+}
+.simple-password{
+	padding-top:10px;
+    font-size: 14px;
+    color: #2A2A2A;
+}
+.mdify-tips{
+	padding-top:6px;
+    font-size: 14px;
+    color: #2A2A2A;
+}
+.modify-password-btn{
+	padding:15px 0 0px;
+	text-align: center;
+}
+.modify-password-btn a {
+	width:98px;
+	height:38px;
+	line-height: 38px;
+    background-color:#fff;
+    border: 1px solid #EDEDED;
+    display: inline-block;
+    font-size: 16px;
+    color: #2A2A2A;
+    cursor: pointer;
+    font-weight:400;
+    margin:5px 10px 0;
+    text-decoration: none;
+}
+.modify-password-btn .btn1 {
+    background-color: #3D84FF;
+    border-color:#3D84FF;
+    color: #fff;
+}
+.other-school-body .modify-password-btn .btn1 {
+    background-color: #26A9FF;
+    border-color:#26A9FF;
+}
+.modify-password-btn a:hover{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.revisePassword-tit{
+	padding:0 0 10px 25px;
+	text-align: left;
+	font-size: 18px;
+    color: #333;
+}
+.revisePassword-tit-h2{ padding:35px 0 10px 25px !important;}
+.revisePassword-box{
+	position: relative;
+}
+.revisePassword-list li{
+	margin-top:20px;
+}
+.daily-label {
+    width:90px;
+    padding-right:20px;
+    text-align: right;
+    color: #333;
+    display:block;
+    font-size: 14px;
+    line-height:40px;
+}
+.daily-input-inline {
+    width:220px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border:#f2f2f2 1px solid;
+    border-radius:2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+}
+.daily-input-inline .layui-input{
+    height:40px;
+    width:180px;
+    padding-right:20px;
+}
+.revisePassword-wrap .layui-layer-setwin .layui-layer-close{
+	width:22px;
+	height:22px;
+	background: url(https://image.zhihuishu.com/testzhs/ablecommons/demo/201612/689dc51e10e14338aba96e7caa8d3be4.png) -107px 0 no-repeat;
+	top:15px;
+	right:5px;
+}
+.revisePassword-wrap .layui-layer-setwin .layui-layer-close:hover{
+	background-position: -75px 0;
+}
+.empty-ico{
+	width:18px;
+	height:18px;
+	display: block;
+	cursor: pointer;
+	background: url(//image.zhihuishu.com/zhs/able-commons/demo/201806/d4a6053ac1174ab8a976f9cadaad4960.png) no-repeat;
+	position: absolute;
+	right:10px;
+	top:11px;
+	display:none;
+}
+.error-password{
+	position: absolute;
+	bottom:-25px;
+	left:110px;
+	font-size: 14px;
+    color: #FF6060;
+/*     display:none; */
+}
+
+/**
+* 禁止登录弹出层样式
+ */
+.shadow-layer{
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    position:fixed;
+    left:0;
+    top:0;
+    z-index: 100;
+}
+.error-tips-pop{
+    width:290px;
+    height:140px;
+    background:#fff;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-70px 0 0 -145px;
+    text-align:center;
+    z-index: 110;
+    border-radius: 8px;
+}
+.error-tips-pop img{
+    margin:18px 0 0px;
+}
+.error-tips-pop div{
+    font-size: 14px;
+    color: #464646;
+    line-height: 20px;
+}
+.close-btn{
+    width:15px;
+    height:16px;
+    display:block;
+    cursor:pointer;
+    background:url(//image.zhihuishu.com/zhs/able-commons/demo/201905/2ac1e41c31ea4637b528f0baeac4f75b.png) no-repeat;
+    position:absolute;
+    right:12px;
+    top:12px;
+}
+.layui-layer-title{ padding: 0!important;
+    height: 60px !important;
+    border: none !important;
+    background: none !important;
+    line-height: 60px!important;
+    font-size: 18px!important;
+    color: #2A2A2A!important;
+    text-align: left!important;
+    padding-left: 30px!important;
+    font-weight: bold;
+   }
+.easywallpop .layui-layer-close{ position: absolute; top: -24px;
+    right: -18px;}
+.zhs-wallapp .layui-layer-close{ position: absolute; top: -24px;
+    right: -18px;}
+
+/*老师check*/
+.teacherVerification-div{ padding:0px 30px; width: 340px;}
+.teacherVerification-div p{font-size: 12px;
+    color: #777777;line-height: 18px;}
+.teacherVerification-div>p>.VerificationCode-span{font-size: 12px;
+    color: #000000;}
+.VerificationCodeinput-div{ position: relative;background: #F6F6F6;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    border-radius: 2px; width: 318px; height: 18px;padding:10px;margin-top:20px;}
+.VerificationCodeinput-div input{ font-size: 14px; margin-left:55px; width: 145px; }
+.VerificationCodeinput-div .ico-em{ background: url(https://image.zhihuishu.com/zhs_yufa_150820/ablecommons/demo/201912/3ab1a4061a7f4ddeb4c53fece221aa47.png) no-repeat; width: 20px; height: 20px; display: inline-block; position: absolute; left: 10px;}
+.VerificationCodeinput-div .font-em{ }
+.VerificationCodeinput-div .Partitionline-em {
+    width: 1px;
+    height: 22px;
+    position: absolute;
+    top: 9px;
+    left: 40px;
+    background: #EDEDED;
+    display: inline-block;
+}
+.VerificationCodefont-span{ font-size: 14px;
+    color: #777777;}
+.VerificationCodeinput-div .errorico-em{font-size: 12px;
+    color: #F94F17;background: url(https://image.zhihuishu.com/zhs_yufa_150820/ablecommons/demo/201912/7f979f4f66054105b40abc57285dc748.png) no-repeat 3px 2px; padding-left:20px; display: inline-block;position: absolute; left: 0px;bottom: -22px; }
+.VerificationCodebtn-div{background: #BFBFBF;
+    border-radius: 2px;
+    border-radius: 2px; width: 340px; height: 40px; text-align: center; line-height:40px; color:#fff; margin-top:50px;}
+.VerificationCodebtn-div.cur{ background: #3D84FF; cursor: pointer;}
+.VerificationCodebtn-div.cur:hover{ opacity: 0.9;}
+.reget{cursor: pointer;color: #3D84FF}
+input:focus{ outline: none; }
+
+/*绑定提示*/
+.lockingdiv{ text-align: center;  width: 340px; margin:10px auto;}
+.lockingdiv p{font-size: 14px;color: #2A2A2A; line-height: 24px;}
+.servicebtn-div span{ text-align: center; width: 120px; height: 40px; line-height: 40px; color:#fff; display: inline-block;background: #3D84FF; cursor: pointer; margin-top:20px;}
+.servicebtn-div span:hover{ opacity: 0.9;}

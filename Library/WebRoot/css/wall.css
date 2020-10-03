@@ -1,0 +1,1765 @@
+.wall-body {
+    overflow: hidden;
+}
+.wall-warp{
+    width: 400px;
+    height: 300px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+.wall-war{
+	background: #FFFFFF;
+    border-radius: 6px;
+}
+.other-school-body .wall-main {
+    width:380px;
+    /*background: #FFFFFF;*/
+    /*box-shadow: 0 0 10px 0 rgba(0,33,79,0.11);*/
+    /*border-radius: 6px;*/
+    /*padding: 20px 0;*/
+    /*margin-top:-10px;*/
+}
+.other-school-body .wall-warp {
+    margin-left: -190px;
+}
+a:hover{
+    text-decoration: none;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+#wall-bg {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    z-index: -1;
+}
+
+#wall-bg span {
+    position: absolute;
+    width: 100%;
+    height: 149px;
+    top: 0;
+    left: 0;
+    background: url(https://image.zhihuishu.com/testzhs/ablecommons/demo/201701/aa7df9eb5c77480cb0bd6fac5add0ff5.png) repeat-x;
+    z-index: 10;
+}
+.other-school-body #wall-bg {
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: -1;
+    width:100%;
+    height:100%;
+}
+.other-school-body #wall-bg span {
+    width: 100%;
+    height: 100%;
+    /*background: url(https://image.zhihuishu.com/zhs/ablecommons/demo/201812/81cdeebc41164ee2b0cba842a16cc1c6.png) no-repeat;*/
+    /*background-size: 100% 100%;*/
+    z-index: 10;
+}
+.wall-icon {
+    background: url("//image.zhihuishu.com/zhs/ablecommons/demo/201907/d4beb34b2e834a57982abed35af1090c.png") 0 3px no-repeat;
+}
+
+.wall-logo {
+    width: 152px;
+    height: 40px;
+    margin-top: 30px;
+    /*margin-top: 112px;*/
+    /*background: url('https://image.zhihuishu.com/zhs/ablecommons/demo/201812/e67093aa50fa477d842b98fe8b04d645.png') no-repeat;*/
+}
+.other-school-body .wall-logo {
+    width: 340px;
+    height: 40px;
+    margin-top: 25px;
+    /*background: url(https://image.zhihuishu.com/zhs/ablecommons/demo/201812/eb30c776a75f4bb4ae9e10746b4a049c.png) no-repeat;*/
+}
+.switch-nav-wrap {
+    /*width: 300px;*/
+    height: 45px;
+    margin-top: 45px;
+    text-align: center;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.switch-nav {
+    position: relative;
+    width: 355px;
+    height: 40px;
+    text-align: center;
+}
+
+.switch-nav a {
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #777;
+    transition: all ease-in .2s;
+    float: left;
+    margin-right:20px;
+    text-align: center;
+}
+.switch-nav .registerNum-btn{
+    margin-left:110px;
+    margin-right:0;
+    text-align: right;
+}
+
+.switch-nav a:hover {
+    text-decoration: none;
+}
+
+.switch-nav a.cur {
+    font-weight: bold;
+    font-size: 16px;
+    color: #2A2A2A;
+}
+
+.switch-nav .cur-border-bottom {
+    position: absolute;
+    bottom: 3px;
+    left: -7px;
+    width: 43px;
+    height: 4px;
+    background: #3D84FF;
+    margin-left:15px;
+    transition: all ease-in .1s;
+}
+
+.switch-nav .cur-border-bottom.cur-index-1 {
+    left: 89px;
+}
+
+.wall-form-ipt-list {
+    margin: 20px auto 0;
+    width: 340px;
+}
+
+.wall-form-ipt-list li {
+    position: relative;
+    height: 30px;
+    width: 340px;
+    margin-bottom: 25px;
+}
+.wall-body .wall-form-ipt-list li input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #BFBFBF;
+}
+.wall-body .wall-form-ipt-list li input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #BFBFBF;
+}
+.wall-body .wall-form-ipt-list li input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #BFBFBF;
+}
+.wall-body .wall-form-ipt-list li input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #BFBFBF;
+}
+.wall-form-ipt-list li input {
+    background: #F6F6F6;
+    border: 1px solid #EDEDED;
+    width: 250px;
+    padding-left: 45px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #3D4059;
+    box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder {
+    color: #9798A9;
+    font-size: 14px;
+}
+.wall-form-ipt-list li .input-error{
+    border: 1px solid #F94F17;
+    box-shadow: 0 0 8px 0 rgba(255,101,128,0.28);
+}
+.wall-form-ipt-list li i {
+    background: url('//image.zhihuishu.com/zhs/ablecommons/demo/201907/c61567392dac4b5281c8ba0ac13ffe3f.png') 0 0 no-repeat;
+    position: absolute;
+    left: 13px;
+    top: 11px;
+    width: 18px;
+    height: 20px;
+    z-index: 9;
+    /*background-size: 100% 100%;*/
+}
+.wall-form-ipt-list li .pasword-icon{
+    background: url('//image.zhihuishu.com/zhs/ablecommons/demo/201907/c61567392dac4b5281c8ba0ac13ffe3f.png') -89px 0 no-repeat;}
+.wall-form-ipt-list li .school-icon{
+    background: url('//image.zhihuishu.com/zhs/ablecommons/demo/201907/c61567392dac4b5281c8ba0ac13ffe3f.png') -58px 0 no-repeat;
+}
+.wall-form-ipt-list li .number-icon{
+    background: url('//image.zhihuishu.com/zhs/ablecommons/demo/201907/c61567392dac4b5281c8ba0ac13ffe3f.png') -117px 0 no-repeat;
+}
+.wall-form-ipt-list li .jgnumber-icon{  background: url('//image.zhihuishu.com/zhs/ablecommons/demo/201907/c61567392dac4b5281c8ba0ac13ffe3f.png') -27px 1px no-repeat;}
+.wall-form-ipt-list li .pic-code-icon{
+    background: url('//image.zhihuishu.com/zhs/ablecommons/demo/201907/c61567392dac4b5281c8ba0ac13ffe3f.png') -147px 0 no-repeat;
+}
+.wall-form-ipt-list li .message-icon{
+    background: url('//image.zhihuishu.com/zhs/ablecommons/demo/201907/c61567392dac4b5281c8ba0ac13ffe3f.png') -208px 0 no-repeat;
+}
+
+.wall-form-ipt-list li .pic-validate-code {
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    z-index: 3;
+    width: 84px;
+    height: 36px;
+    border-radius: 3px;
+}
+
+.show-password {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    width: 29px;
+    height: 18px;
+    background-position: -36px 0;
+    cursor: pointer;
+    transition: opacity ease-in .2s;
+}
+
+.show-password:hover {
+    opacity: .8;
+}
+
+.show-password.blur {
+    background-position: 0 1px;
+}
+
+.show-password-find {
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    width: 29px;
+    height: 14px;
+    cursor: pointer;
+    transition: opacity ease-in .2s;
+}
+
+.show-password-find:hover {
+    opacity: .8;
+}
+
+.show-password-find.blur {
+    background: url("//image.zhihuishu.com/zhs/ablecommons/demo/201907/8a1181efba944e0480a9347ff75d6f60.png")  no-repeat;
+}
+
+.wall-sub-btn {
+    display: block;
+    margin: 42px auto 0;
+    width: 340px;
+    height: 40px;
+    line-height: 40px;
+    /*background: url('https://image.zhihuishu.com/zhs/ablecommons/demo/201812/1301140bb36b493eb3c66433656b5028.png') no-repeat;*/
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background: #3D84FF;
+}
+#createCertifyId{
+    margin-top:36px;
+}
+
+.other-school-body .wall-sub-btn {
+    /*background: url('https://image.zhihuishu.com/zhs/ablecommons/demo/201812/f11ee8b96ffc4ae9a3777f5553eb2b44.png') no-repeat;*/
+}
+.wall-sub-btn:hover {
+    opacity: 0.8;
+}
+.wall-sub-btn:active {
+    background-position:0 -128px;
+}
+
+.wall-sub-btn.disable {
+    border-color: #E4ECEA;
+    background: #E4ECEA;
+    cursor: default;
+    text-shadow: none;
+}
+
+.signin-misc-wrap {
+    width: 340px;
+    height: 20px;
+    margin: 13px auto 0;
+    position: relative;
+}
+.signin-misc-wrap img {
+    position: absolute;
+    top:2px;
+    left:0;
+    cursor: pointer;
+}
+
+.signin-misc-wrap .remember-btn {
+    line-height: 20px;
+    height: 20px;
+    font-size: 12px;
+    color: #777;
+    padding-left:6px;
+    cursor: pointer;
+}
+
+.signin-misc-wrap .remember-btn input {
+    font-size: 12px;
+    margin: 0 8px 0 0;
+    opacity: 0;
+}
+
+.signin-misc-wrap .forget-btn {
+    line-height: 20px;
+    height: 20px;
+    font-size: 12px;
+    color: #777;
+}
+.other-school-body .signin-misc-wrap .forget-btn {
+    color: #26A9FF;
+}
+
+.other-signin-way-tit {
+    width: 340px;
+    height: 9px;
+    margin-top: 30px;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.other-signin-way-tit span {
+    display: block;
+    margin: -9px auto 0;
+    width: 84px;
+    height: 18px;
+    border-radius: 9px;
+    background: #fff;
+    text-align: center;
+    line-height: 18px;
+    font-size: 14px;
+    color: #777;
+    padding: 0 10px;
+}
+
+.other-signin-way-list {
+    width: 303px;
+    margin: 26px auto 0;
+    text-align: center;
+}
+
+.other-signin-way-list li {
+    position: relative;
+    display: inline-block;
+    margin-right: 42px;
+}
+
+.other-signin-way-list li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.signin-way-qq a {
+    background-position: -90px -102px;
+}
+.signin-way-qq .wall-qq {
+    background: url('//image.zhihuishu.com/zhs/ablecommons/demo/201907/5ee01384a6454454ab4b189d60cfe75e.png') no-repeat;
+
+}
+.signin-way-shjiaoyu{ float: left;}
+.signin-way-shjiaoyu .wall-weixin{
+    background: url('//image.zhihuishu.com/zhs/ablecommons/demo/201907/142f501af4824ad7bcd23cadd1f2422e.png') no-repeat;
+}
+.signin-way-shkuaxiao a {
+    background-position: 0 -102px;
+}
+
+.signin-way-shjiaoyu a {
+    background-position: -45px -102px;
+}
+
+.other-signin-way-list li span {
+    opacity: 0;
+    position: absolute;
+    top: 53px;
+    left: -16px;
+    width: 118px;
+    height: 31px;
+    transition: all ease-in-out .5s;
+}
+
+.other-signin-way-list li:hover span {
+    opacity: 1;
+    transform: translate(0px 0px);
+    top: 43px;
+}
+
+.other-signin-way-list .signin-way-qq span {
+    width: 75px;
+    background-position: -123px -24px;
+    left: -18px;
+}
+
+.signin-way-shkuaxiao span {
+    background-position: 0 -24px;
+}
+
+.signin-way-shjiaoyu span {
+    background-position: 0 -61px;
+}
+
+.other-signin-way-list .signin-way-teachId {
+    margin-right: 0;
+}
+
+.other-signin-way-list .signin-way-teachId .new-wall-icon {
+    border: 1px solid #EDEDED;
+    width:130px;
+    height:40px;
+    font-size: 16px;
+    color: #777777;
+    line-height:40px;
+    text-align: center;
+    display: inline-block;
+}
+.other-school-body .other-signin-way-list .signin-way-teachId .new-wall-icon {
+    border: 1px solid #26A9FF;
+    color: #26A9FF;
+}
+.other-signin-way-list .signin-way-teachId .new-wall-icon:hover {
+    text-decoration: none;
+}
+/*.other-signin-way-list .signin-way-teachId a {*/
+    /*width: 79px;*/
+    /*height: 39px;*/
+    /*background-position: 0 9px;*/
+/*}*/
+
+.other-signin-way-list .signin-way-teachId a:hover {
+    background-position: -94px 9px;
+}
+
+.other-signin-way-ques{
+    font-size: 12px;
+    color: #BFBFBF;
+    width: 340px;
+    text-align: center;
+    margin: 109px auto 0;
+}
+.other-signin-way-ques a{
+    color:#000;
+    cursor: pointer;
+}
+.other-school-body .other-signin-way-ques a{
+    color: #26A9FF;
+    cursor: pointer;
+}
+.other-signin-way-ques a:hover{
+    text-decoration: none;
+}
+.studentID-list, .phoneMumber-list, .teacherID-list, .new-switch-wall {
+    display: none
+}
+
+.teachId-wrap, .registerNum-wrap {
+    display: none;
+    line-height: 40px;
+    font-size: 16px;
+    color: #2A2A2A;
+    margin-left: 25px;
+}
+.teachId-wrap{
+    font-size: 16px;
+    color: #2A2A2A;
+    text-align: left;
+    font-weight: bold;
+}
+.login-bottom-box{
+    text-align: center;
+    margin-top:15px;
+}
+#bottomTchDiv{
+    display: none;
+}
+.tch-back{
+    display: inline-block;
+    border: 1px solid #EDEDED;
+    width:150px;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    font-size: 16px;
+    color: #777777;
+    box-sizing: border-box;
+}
+.tch-back{
+    border: 1px solid #EDEDED;
+    margin-top: 40px;
+}
+
+.Return-btn {
+    width: 79px;
+    height: 24px;
+    background-position: -191px 0;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.clearPassword-ico input::-ms-reveal {
+    display: none;
+}
+
+.zhs-wall-slogan {
+    width: 340px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    position: fixed;
+    font-size: 12px;
+    color: #9798A9;
+    bottom: 20px;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -150px;
+}
+.other-school-body .zhs-wall-slogan {
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    width:380px;
+}
+.other-school-body .zhs-wall-slogan a{
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.switch-wrap {
+    display: none;
+}
+
+.switch-wrap.active, .studentID-list.active, .phoneMumber-list.active, .teacherID-list.active, .switch-nav.active, .teachId-wrap.active, .registerNum-wrap.active {
+    display: block;
+}
+
+.zhs-user-deal {
+    width: 348px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #aac1b8;
+    text-align: center;
+    margin: 10px auto 0;
+}
+
+.zhs-user-deal a {
+    color: #00C896;
+}
+
+.other-school-body .zhs-user-deal a {
+    color: #26A9FF;
+}
+.zhs-user-deal a:hover {
+    color: #05b989;
+    text-decoration: none;
+}
+
+.download-app-code {
+    position: relative;
+    width: 346px;
+    height: 48px;
+    margin: 44px auto 0;
+    border: 1px solid #00C896;
+    border-radius: 2px;
+    color: #00C896;
+    font-size: 18px;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+}
+
+.download-app-code .wall-icon {
+    position: absolute;
+    z-index: 9;
+    opacity: 0;
+    transform: translate(0px, 30px);
+    visibility: hidden;
+    bottom: 58px;
+    left: -12px;
+    width: 369px;
+    height: 384px;
+    background-position: 0 -148px;
+    transition: all ease-in .2s;
+}
+
+.download-app-code.blur .wall-icon {
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+.form-ipt-error {
+    color: #F94F17;
+    font-size: 12px;
+    display: none;
+}
+
+.form-ipt-error.is-visible {
+    display: block;
+}
+
+.pw-code-item .form-ipt-error {
+    right: 40px;
+}
+
+.pic-code-item .form-ipt-error {
+    right: 118px;
+}
+
+.msg-code-ipt-pop {
+    width: 364px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.find-msg-code-ipt-pop {
+    width: 364px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-bottom:15px;
+}
+
+.msg-code-ipt-tit {
+    padding-top: 16px;
+    padding-left: 13px;
+    font-size: 18px;
+    color: #2A2A2A;
+    height: 24px;
+    line-height: 24px;
+    font-weight:bold;
+}
+
+.msg-code-instructions {
+    display: block;
+    font-size: 12px;
+    color: #777;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 5px;
+    margin-left:12px;
+}
+
+.msg-code-ipt-pop .wall-form-ipt-list {
+    width: 364px;
+    border-radius: 0;
+    border: none;
+    /*border-top: 1px solid #d8e0e0;*/
+}
+
+.msg-code-ipt-pop .wall-form-ipt-list li {
+    border-color: #d8e0e0;
+    width: 340px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.msg-code-ipt-pop .wall-form-ipt-list li input {
+    color: #999;
+}
+
+.find-msg-code-ipt-pop .wall-form-ipt-list {
+    width: 364px;
+    border-radius: 0;
+    border: none;
+    margin: 55px auto 0 !important;
+    /*border-top: 1px solid #d8e0e0;*/
+}
+
+.find-msg-code-ipt-pop .wall-form-ipt-list li {
+    border-color: #d8e0e0;
+    width: 340px;
+    margin:0 auto;
+    margin-bottom:25px;
+}
+
+/*.find-msg-code-ipt-pop .wall-form-ipt-list li input {*/
+    /*color: #999;*/
+/*}*/
+
+.wall-sub-btn.wall-sub-btn-jump {
+    margin: 34px auto 30px;
+}
+.wall-body .zhs-wall{
+    z-index: 101 !important;
+}
+.layui-layer-shade{
+    z-index: 100 !important;
+}
+
+.zhs-wall .layui-layer-setwin .layui-layer-close {
+    width: 22px;
+    height: 22px;
+    background: url('//image.zhihuishu.com/zhs_yanfa_150820/able-commons/demo/201907/99defc23fe48400f8d759842df9fbf44.png') no-repeat;
+}
+
+.zhs-wall .layui-layer-setwin .layui-layer-close:hover {
+    background-position: 0 0;
+}
+
+.zhs-wall .layui-layer-setwin {
+    right: 44px;
+    top: 44px;
+}
+
+.send-msg-code-btn {
+    position: absolute;
+    top: 3px;
+    right: 4px;
+    width: 82px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #3D84FF;
+    cursor: default;
+}
+.other-school-body .send-msg-code-btn {
+    color: #26A9FF;
+}
+
+.send-msg-code-btn.enable {
+    cursor: pointer;
+}
+
+.send-msg-code-btn.enable:hover {
+    color: #00C896;
+}
+.other-school-body .send-msg-code-btn.enable:hover {
+    color: #26A9FF;
+}
+.send-msg-email-code-btn {
+    position: absolute;
+    top: 0;
+    right: 4px;
+    width: 82px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #A8A8B7;
+    cursor: default;
+}
+.other-school-body .send-msg-email-code-btn {
+    color: #26A9FF;
+}
+
+.send-msg-email-code-btn.enable {
+    cursor: pointer;
+}
+
+.send-msg-email-code-btn.enable:hover {
+    color: #00C896;
+}
+
+.msg-ipt-item .form-ipt-error {
+    right: 120px;
+}
+
+.register-success-logo {
+    width: 102px;
+    height: 102px;
+    margin: 120px auto 0;
+    background: url(https://image.zhihuishu.com/testzhs/ablecommons/demo/201612/de2655cd97c84e89b1336869d0e8f69e.png) no-repeat;
+}
+
+.register-success-info {
+    width: 348px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 20px;
+    color: #b1bfbc;
+    text-align: center;
+    margin: 30px auto 0;
+}
+
+.register-success-tip {
+    width: 348px;
+    line-height: 30px;
+    margin: 69px auto 0;
+    font-size: 20px;
+    color: #6F6F6F;
+    text-align: center;
+}
+
+.register-success-tip span {
+    color: #00C896;
+}
+
+.wall-sub-vali {
+    margin: 68px auto 0;
+}
+
+.not-student-tip {
+    font-size: 14px;
+    width: 348px;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+    margin: 24px auto 0;
+    color: #babdbb;
+}
+
+.not-student-tip a {
+    color: #f98084;
+}
+
+.validate-title {
+    width: 348px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 40px;
+    color: #00C896;
+    text-align: center;
+    margin: 128px auto 0;
+}
+
+.validate-nav {
+    width: 348px;
+    height: 38px;
+    text-align: center;
+    margin: 24px auto 0;
+}
+
+.validate-nav span {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: #e4ecea;
+    color: #fff;
+    border-radius: 2px;
+    border: 1px solid #E4ECEA;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 8px;
+    cursor: default;
+}
+
+.validate-nav span.cur {
+    background: #00C896;
+    border-color: #00B386;
+}
+
+.validate-school-search-wrap {
+    position: relative;
+    width: 348px;
+    height: 52px;
+    margin: 92px auto 0;
+}
+
+.school-search-holder, .validate-school-search-wrap input {
+    width: 310px;
+    height: 50px;
+    padding: 0 18px;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.school-search-holder {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    text-align: center;
+    color: #B1BFBC;
+    cursor: text;
+    text-indent: 10px;
+    background: url(https://image.zhihuishu.com/testzhs/ablecommons/demo/201612/b818831613bb44f6ac73e2d9aa8e5787.png) 39px 12px no-repeat;
+}
+
+.validate-school-search-wrap input {
+    text-align: left;
+    color: #191818;
+    border: 1px solid #bfbfbf;
+}
+
+.validate-school-search-wrap input:focus {
+    border: 1px solid #3D84FF;
+    box-shadow: 0 0 8px 0 rgba(1,154,255,0.28);
+
+}
+.other-school-body  .validate-school-search-wrap input:focus {
+    border-color: #5BBEFF;
+}
+.validate-school-list-drop {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 348px;
+}
+
+.validate-school-list-wrap {
+    width: 340px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.21);
+    border-radius:0 0 6px 6px;
+    max-height:170px;
+}
+
+.validate-school-list {
+    width: 340px;
+    padding-top: 10px;
+}
+
+.validate-school-list li {
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 30px;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #9798A9;
+    width:280px;
+    margin-bottom:0;
+}
+
+.validate-school-list li:hover {
+    cursor: pointer;
+    color: #3D84FF;
+    background: #EDEDED;
+}
+.other-school-body .validate-school-list li:hover {
+    cursor: pointer;
+    color: #26A9FF;
+}
+
+.wall-sub-btn-valinext {
+    margin-top: 50px;
+}
+
+.validate-school-list-wrap.nano > .pane {
+    background: none;
+}
+
+.validate-school-list-wrap.nano > .pane > .slider {
+    background: #BFBFBF;
+    margin: 1px;
+}
+
+.wall-form-ipt-list .layui-input-block {
+    margin-left: 0;
+}
+
+.wall-form-ipt-list .layui-input {
+    border: none;
+}
+
+.wall-form-ipt-list .layui-form-select dl {
+    top: 56px;
+    padding: 0;
+    max-height: 560px;
+}
+
+.wall-form-ipt-list .layui-form-select dl dd {
+    height: 56px;
+    line-height: 56px;
+    font-size: 16px;
+    color: #515151;
+}
+
+.wall-form-ipt-list .layui-form-select dl dd.layui-this {
+    background: #d9f4ee;
+    color: #515151;
+}
+
+.wall-form-ipt-list .layui-form-select dl dd.layui-this:hover {
+    background: #d9f4ee;
+}
+
+.wall-form-ipt-list .layui-form-select dl dd:hover {
+    background: #ECFAF7;
+}
+
+.validate-school-normal {
+    width: 348px;
+    height: 35px;
+    margin: 52px auto 0;
+}
+
+.validate-school-normal img {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+.validate-school-normal span {
+    display: inline-block;
+    line-height: 35px;
+    margin-left: 16px;
+    font-size: 18px;
+    color: #6F6F6F;
+    vertical-align: middle;
+}
+
+.validate-step-2-tip {
+    font-size: 14px;
+    width: 348px;
+    height: 18px;
+    margin-top: 15px;
+    color: #999;
+    text-align: center;
+}
+
+.wall-sub-btn-mb100 {
+    margin-bottom: 100px;
+}
+
+.validate-header {
+    position: relative;
+    width: 348px;
+}
+
+.validate-error-tip-wrap {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(0px, -20px);
+    width: 350px;
+    height: 120px;
+    background: #91d9fe;
+    border-radius: 4px;
+    transition: all ease-in .3s;
+}
+
+.validate-error-tip-wrap.blur {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0px, 0px);
+}
+
+.validate-error-tip-text {
+    padding: 15px 25px;
+    text-align: center;
+    display: table;
+    width: 340px;
+    height: 40px;
+}
+
+.validate-error-tip-text span {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #fff;
+    line-height: 22px;
+}
+
+.validate-error-tip-btn-wrap {
+    text-align: center;
+    width: 220px;
+    margin-top: 80px;
+}
+
+.validate-error-tip-btn {
+    display: inline-block;
+    width: 88px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #fff;
+    color: #91d9fe;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    margin: 0 13px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.validate-error-tip-btn.validate-error-tip-btn-cancel {
+    background: transparent;
+    color: #fff;
+}
+
+.contact-us-tel {
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFF;
+    text-align: center
+}
+
+.app-QrCode {
+    position: absolute;
+    bottom: 55px;
+    left: -28px;
+    opacity: 0;
+    display: none;
+    transform: translate(0px, -20px);
+    transition: all ease-in .3s;
+    width:200px;
+}
+.app-QrCode img{
+    width:140px;
+}
+
+.app-QrCode.blur {
+    opacity: 1;
+   display: block;
+    transform: translate(0px, 0px);
+}
+
+.app-pr {
+    position: relative;
+}
+
+.validate-success-tip-wrap {
+    width: 364px;
+    height: 260px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.validate-success-logo {
+    width: 75px;
+    height: 75px;
+    margin: 30px auto 0;
+    background: url(https://image.zhihuishu.com/testzhs/ablecommons/demo/201612/6b5cf22c05aa40f495a435d387864fb5.png) no-repeat;
+}
+
+.validate-success-slogan {
+    font-size: 24px;
+    color: #00C896;
+    line-height: 28px;
+    margin: 22px auto 50px;
+    text-align: center;
+}
+
+.validate-go-study {
+    width: 245px;
+}
+
+.validate-gotoapp-wrap {
+    width: 352px;
+    height: 398px;
+    background: #91d9fe;
+    border-radius: 10px;
+}
+
+.validate-gotoapp-tip {
+    display: inline-block;
+    padding: 30px 40px 12px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.gotoapp-code {
+    display: block;
+    width: 224px;
+    height: 233px;
+    margin: 0 auto;
+}
+
+.gotoapp-popup.layui-layer .layui-layer-btn {
+    padding: 0;
+}
+
+.gotoapp-popup .layui-layer-btn .layui-layer-btn0 {
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+    width: 24px;
+    height: 24px;
+    background: url(https://image.zhihuishu.com/testzhs/ablecommons/demo/201612/31ff240a4dcf47cfa6ed2f055dc38e0e.png) 0 0 transparent no-repeat;
+    text-indent: -9999px;
+}
+
+.gotoapp-popup .layui-layer-btn .layui-layer-btn0:hover {
+    background-position: 0 -24px;
+}
+
+/*login-register-popup*/
+.wall-pop-main .wall-icon {
+    background-image: url("https://image.zhihuishu.com/testzhs/ablecommons/demo/201612/0ec7437b96dd44c89f2c39c6c5d1683d.png");
+}
+
+.wall-pop-main {
+    position: relative;
+    width: 490px;
+    height: 478px;
+    border-top: 1px solid transparent;
+    overflow: hidden;
+    background: #FFF;
+    border-radius: 10px;
+}
+
+.wall-pop-main .wall-logo {
+    width: 125px;
+    height: 75px;
+    background-position: 0 0;
+    margin: 25px auto 0;
+}
+
+.wall-pop-main .switch-nav {
+    margin-top: 20px;
+}
+
+.wall-pop-main .wall-form-ipt-list {
+    margin-top: 0;
+}
+
+.other-signin-way-tit-pop {
+    font-size: 12px;
+    color: #636363;
+    line-height: 26px;
+}
+
+.wall-pop-main .other-signin-way-wrap {
+    width: 348px;
+    margin: 18px auto 0;
+}
+
+.wall-pop-main .other-signin-way-list {
+    width: auto;
+    margin-top: 0;
+    margin-left: 9px;
+}
+
+.wall-pop-main .other-signin-way-list li {
+    margin: 0 9px;
+}
+
+.wall-pop-main .other-signin-way-list li a {
+    width: 26px;
+    height: 26px;
+}
+
+.wall-pop-main .signin-way-qq a {
+    background-position: 0 -78px;
+}
+
+.wall-pop-main .signin-way-shkuaxiao a {
+    background-position: -31px -78px;
+}
+
+.wall-pop-main .signin-way-shjiaoyu a {
+    background-position: -61px -78px;
+}
+
+.wall-pop-main .switch-wrap {
+    position: absolute;
+    display: block;
+    top: 180px;
+    left: 71px;
+    transition: all ease-in .25s;
+}
+
+.wall-pop-main .switch-wrap-signin {
+    transform: translate(-348px, 0px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.wall-pop-main .switch-wrap-signup {
+    transform: translate(348px, 0px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.wall-pop-main .switch-wrap.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.wall-pop-main .show-password {
+    background-position: -61px -108px;
+}
+
+.wall-pop-main .show-password.blur {
+    background-position: -96px -108px;
+}
+
+.wall-pop-main .show-password-find {
+    background-position: -61px -108px;
+}
+
+.wall-pop-main .show-password-find.blur {
+    background-position: -96px -108px;
+}
+
+.validate-telephone-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 490px;
+    height: 478px;
+    background: #fff;
+    background: #FFF;
+    border-radius: 10px;
+    transition: all ease-in .35s;
+    transform: translate(348px, 0px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.validate-telephone-title {
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+    line-height: 28px;
+    margin: 40px auto 0;
+}
+
+.validate-telephone-instructions {
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    line-height: 28px;
+}
+
+.wall-sub-btn-full {
+    margin-top: 32px;
+}
+
+.validate-telephone-overlay.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.validate-telephone-overlay .wall-form-ipt-list {
+    margin-top: 22px;
+}
+
+.validate-telephone-overlay .back-btn {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 22px;
+    height: 22px;
+    background-position: 0 -109px;
+}
+
+.validate-telephone-overlay .back-btn:hover {
+    background-position: -30px -109px;
+    cursor: pointer;
+}
+
+.forget-ipt-pop {
+    position: relative;
+}
+
+.forget-ipt-pop .fall-back {
+    position: absolute;
+    top: 16px;
+    left: 7px;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    background: url(https://image.zhihuishu.com/testzhs/ablecommons/demo/201612/d00376d6c7f84c3487b3ce16882d9377.png) no-repeat;
+}
+
+.forget-ipt-pop .fall-back:hover {
+    background-position: 0 -22px;
+}
+
+.wall-form-ipt-list li .new-schoolSearch-wall {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.wall-form-ipt-list li .new-schoolSearch-wall .school-search-holder {
+    width: 318px;
+    height: 56px;
+    /*font-family: Microsoft YaHei;*/
+    line-height: 56px;
+    padding: 0 14px;
+    text-align: left;
+    text-indent: 0px;
+    left: 0;
+    background: none;
+    color: #999;
+    font-size: 16px;
+}
+
+.wall-form-ipt-list li .new-schoolSearch-wall .school-search-ipt {
+    /*width: 300px;*/
+    /*padding: 0 14px;*/
+    /*border: none;*/
+}
+
+.wall-form-ipt-list li .new-schoolSearch-wall .validate-school-list-drop {
+    width: 340px;
+    left: 0px;
+    z-index: 100;
+}
+
+.new-schoolSearch-wall .validate-school-list li {
+    border-bottom: none;
+    z-index: 100;
+}
+
+.validate-header .new-validate-error-box {
+    height: auto;
+    padding-bottom: 15px;
+    z-index: 110;
+}
+
+/*phoneMumber*/
+.phoneMumber-pop {
+    width: 346px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.phoneMumber-title {
+    width: 340px;
+    margin-top: 40px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #2A2A2A;
+    font-weight: bold;
+}
+
+.importantHint {
+    width: 340px;
+    padding: 3px 0 0px;
+    font-size: 12px;
+    color: #777777;
+}
+.importantHintborder-div{     border-bottom: 1px solid #EDEDED; padding-bottom: 18px;    width: 400px;
+    position: relative;
+    left: -10px;}
+.send-msg-color {
+    cursor: pointer;
+    color: #3D84FF;
+}
+
+.other-school-body .send-msg-color {
+    color: #3D84FF;
+}
+.zhs-wallpop .layui-layer-setwin .layui-layer-close2{ right: -22px !important;
+    top: -9px !important;}
+.send-msg-color-click {
+    cursor: pointer;
+    color: #A8A8B7;
+}
+
+/*.nameMatch-pop-popup*/
+.nameMatch-pop {
+    width: 360px;
+    padding: 18px 10px 20px;
+    background: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.nameMatch-pop-w {
+    width: 340px !important;
+    padding: 20px 5px 20px;
+    background: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+}
+
+.nameMatch-title {
+    font-size: 18px;
+    color: #2A2A2A;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.nameMatch-p {
+    font-size: 12px;
+    color: #777777;
+    text-align: left;
+}
+
+.nameMatch-pop .identifyMatch {
+    width: 140px;
+    /*background: url('https://image.zhihuishu.com/zhs/ablecommons/demo/201812/cac0e285aeee4b8c8971eaa387495092.png') no-repeat;*/
+}
+.other-school-body .nameMatch-pop .identifyMatch {
+    background: url('https://image.zhihuishu.com/zhs/ablecommons/demo/201812/6146c5bb9f8444a397e50f97556826b7.png') no-repeat;
+}
+.nameMatch-pop-w .identifyMatch {
+    width:140px;
+    /*background: url('https://image.zhihuishu.com/zhs/ablecommons/demo/201812/cac0e285aeee4b8c8971eaa387495092.png') no-repeat;*/
+}
+.other-school-body .nameMatch-pop-w .identifyMatch {
+    background: url('https://image.zhihuishu.com/zhs/ablecommons/demo/201812/6146c5bb9f8444a397e50f97556826b7.png') no-repeat;
+}
+.other-school-body .nameMatch-pop-w .identifyMatch:hover{ opacity: 0.8 !important;}
+.nameMatch-main-wrap {
+    position: relative;
+    padding: 53px 0 25px;
+    text-align: center;
+    font-size: 36px;
+    color: #5f5f5f;
+}
+
+.nameMatch-text {
+    width: 52px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 52px;
+    background: #F6F6F6 !important;
+    border: 1px solid #EDEDED;
+    font-size: 36px;
+}
+
+.nameMatch-text-w {
+    width: 298px;
+    height: 40px;
+    display: inline-block;
+    padding: 0 20px;
+    vertical-align: top;
+    line-height: 40px;
+    background: #F6F6F6 !important;
+    border: 1px solid #EDEDED;
+    /*margin-left: 20px;*/
+    font-size: 14px;
+    color: #354052;
+}
+
+.nameMatch-main-wrap .notMatch-sty-bc {
+    border-color: #F94F17;
+    box-shadow: 0 0 8px 0 rgba(255,101,128,0.28);
+    border-radius: 6px;
+}
+
+.nameMatch-main-wrap .notMatch-sty-bg {
+    border-color: #ff0000;
+    background: #ffc5cc
+}
+
+.nameMatch-main-wrap .notMatch-tips {
+    height: 20px;
+    line-height: 17px;
+    padding: 0;
+    /*background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(255, 255, 255, 0), #fff 8px) repeat scroll 0 0;*/
+    background: #fff \9;
+    cursor: text;
+    opacity: 0;
+    padding: 0 8px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    transform: translate(20px, 0px);
+    transition: all 0.25s ease-out 0s;
+    visibility: hidden;
+    z-index: 2;
+    font-size: 12px;
+    color: #F94F17;
+    padding-left: 15px;
+}
+
+.nameMatch-main-wrap .notMatch-tips.is-visible {
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+.new-schoolSearch-wrap {
+    margin: 40px auto 0;
+}
+
+.name-sp-info {
+    height: 54px;
+    line-height: 54px; /*display: inline-block;max-width: 144px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;*/
+}
+
+/* 未导入*/
+.notImport-pop {
+    width: 450px;
+    padding: 30px 30px 20px;
+    background: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+}
+
+.notImport-tips {
+    padding: 20px 0;
+    text-align: left;
+    line-height: 23px;
+    font-size: 14px;
+    color: #2A2A2A;
+}
+
+.ws-tip-btn {
+     display: inline-block;
+     width: 98px;
+     height: 40px;
+     line-height: 40px;
+     text-align: center;
+    background: #3D84FF;
+     color: #fff;
+     cursor: pointer;
+     font-size: 16px;
+ }
+.infoTips-pop .ws-tip-btn {
+    width:140px !important;
+}
+.other-school-body .ws-tip-btn {
+    background: url('https://image.zhihuishu.com/zhs/ablecommons/demo/201812/6146c5bb9f8444a397e50f97556826b7.png') no-repeat;
+}
+
+.app-tip-btn {
+    background: none;
+    border: 1px solid #EDEDED;
+    font-size: 16px;
+    color: #2A2A2A;
+    height:38px;
+    line-height:38px;
+}
+/*.app-tip-btn:hover{ opacity: 0.8;}*/
+.other-school-body .app-tip-btn {
+    border: 1px solid #26A9FF;
+    color: #26A9FF;
+    background: #fff;
+}
+
+/*信息提示*/
+.infoTips-pop {
+    width: 220px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+}
+
+.infoTips-pop .nameMatch-title {
+    color: #333;
+}
+
+.infoTips-pop .notImport-tips {
+    color: #999
+}
+
+.infoTips-pop .bd-phoneNumb-btn {
+    width: 220px;
+}
+
+.infoTips-pop-t {
+    width: 220px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+}
+
+.infoTips-pop-t .nameMatch-title {
+    color: #333
+}
+
+.infoTips-pop-t .notImport-tips {
+    color: #999
+}
+
+.infoTips-pop-t .bd-phoneNumb-btn {
+    width: 220px;
+}
+
+.contactService {
+    padding: 15px 0;
+}
+
+.contactService a {
+    color: #3D84FF
+}
+
+.reenter-link {
+    display: block;
+    margin: 15px auto;
+    padding: 11px 0;
+    background: #3D84FF!important;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+.other-school-body .reenter-link {
+    background: #26A9FF;
+}
+
+.reenter-link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.reenter-link-t {
+    margin: 15px auto;
+    padding: 11px 0;
+    background: #00C896;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.reenter-link-t:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.wall-sub-btn.wall-sub-btn-jump {
+    margin-bottom: 12px;
+}
+.wall-stu-kefu{
+    font-size: 12px;
+    color: #BFBFBF;
+    text-align: center;
+    cursor: pointer;
+}
+.wall-stu-kefu a{
+    color: #00C896;
+}
+.other-school-body .wall-stu-kefu a{
+
+    color: #000;
+}
+.change-phonenum-btn {
+    display: block;
+    margin: 0 auto 26px;
+    width: 170px;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 20px;
+    background: url(//image.zhihuishu.com/zhs/ablecommons/demo/201804/a6966046383b4049a818dd8b8b9c516d.png) 0 4px no-repeat;
+    background-size: 16px 16px;
+    font-size: 14px;
+}
+.Partitionline-em{ width: 1px; height: 22px; position: absolute; top:9px; left: 40px;background: #EDEDED; display: inline-block;}
+.errorico-em{ background:url(//image.zhihuishu.com/zhs/ablecommons/demo/201907/ed44fa43058e4643984d7fd858326351.png) 0 3px no-repeat;  height: 17px; margin-right: 6px;padding-left: 17px;
+    vertical-align: middle; margin-top: 2px;}
+.nameMatch-main-wrap input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #BFBFBF;
+}
+.nameMatch-main-wrap input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #BFBFBF;
+}
+.nameMatch-main-wrap input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #BFBFBF;
+}
+.nameMatch-main-wrap input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #BFBFBF;
+}

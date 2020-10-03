@@ -1,0 +1,186 @@
+/*nano*/
+.accountPopall-div .nano {position : relative;overflow:hidden;}
+.accountPopall-div .nano .content {position: absolute;overflow: auto;overflow-x: hidden;top: 0;right: 0;bottom: 0;left: 0;background:none;}
+.accountPopall-div .nano .content:focus {outline: thin dotted;}
+.accountPopall-div .nano .content::-webkit-scrollbar {visibility: hidden;}
+.accountPopall-div .has-scrollbar .content::-webkit-scrollbar {visibility: visible;}
+.accountPopall-div .nano > .pane {height:405px;background : rgba(0,0,0,.25);position: absolute;width: 10px;right: 0;top: 0;bottom: 0;visibility : hidden\9; /* Target only IE7 and IE8 with this hack */opacity: .01;
+-webkit-transition: .2s;-moz-transition: .2s;-o-transition: .2s;transition: .2s;-moz-border-radius: 5px;-webkit-border-radius : 5px;  border-radius: 5px;}
+.accountPopall-div .nano > .pane {background:none;position: absolute;width: 6px;right: 5px;top: 0;bottom: 0;visibility : hidden\9; /* Target only IE7 and IE8 with this hack */opacity: .01; -webkit-transition: .2s;-moz-transition       : .2s;
+-o-transition: .2s;
+transition: .2s;
+    z-index: 999;
+}
+.accountPopall-div .nano > .pane > .slider {  background:  #BFBFBF;position: relative;margin: 0 1px;}
+.accountPopall-div .nano:hover > .pane, .pane.active, .pane.flashed {visibility : visible\9; /* Target only IE7 and IE8 with this hack */opacity: 0.99;}
+/*nano*/
+*{ margin:0; padding:0;}
+.accountPopall-div input{ background: none; border:none; width: 180px;}
+input::-webkit-input-placeholder{
+color: #BFBFBF;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color: #BFBFBF;
+}¡¡¡¡
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color: #BFBFBF;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color: #BFBFBF;
+}
+.accountPopall-div .layui-layer-title,.Addteachingassistant-pop .layui-layer-title{     background: #FFFFFF;
+    border-radius: 6px; border-bottom:0;    padding: 0 80px 0 30px;}
+	.accountPopall-div{ background: #FFFFFF !important;
+}
+.accountPopall-div .layui-layer-ico{ background:url(https://image.zhihuishu.com/zhs_yufa_150820/ablecommons/demo/201912/aa7911262be84db788310769ed2a0fde.png) no-repeat !important; width:28px!important;height:28px !important; display:inline-block; top:18px !important; right: 60px !important;}
+.accountPopall-div .layui-layer-title{ font-size: 18px;
+color: #2A2A2A; line-height:60px; font-weight:bold;}
+.accountPopall-div .layui-layer-title{ height: 60px; border-bottom: 1px solid #EDEDED !important;}
+.accountPopall-div .layui-layer-btn .layui-layer-btn0{ background:url(http://image.zhihuishu.com/zhs/ablecommons/demo/201810/a4310bd5a23b404e82396fe621decc61.png) no-repeat; width:144px; height:46px; display:inline-block; border:0; background-color:none; padding:0; line-height:43px;}
+.accountPopall-div .layui-layer-btn .layui-layer-btn0:hover{ background-position:0 -54px;}
+.Addteachingassistant-pop .layui-layer-btn .layui-layer-btn0:active{ background-position:0 -108px;}
+.accountPopall-divlayui-layer-btn{ position:relative;top:0px;left:-15px;}
+.accountPopall-div .red{ font-size: 12px;
+color: #002728;}
+.accountPopall-div{ padding:15px 0px 0 60px;}
+
+.Accountcancellation-box .Accountcancellation-div ul li strong{ font-size: 14px;
+color: #2A2A2A;}
+.Accountcancellation-box .Accountcancellation-div ul li .p1{ font-size: 14px;
+color: #777777; margin-top:8px; position: relative;}
+.Accountcancellation-box .Accountcancellation-div ul li .p2{ font-size: 14px;
+color: #F94F17; margin-top:8px; position: relative;}
+.Accountcancellation-box .Accountcancellation-div ul li .p2 em{ background: url(https://image.zhihuishu.com/zhs_yufa_150820/ablecommons/demo/201912/6d0688e0eff24f12b0f2ddf96cdff5e1.png) no-repeat; width: 20px; height: 20px; display: inline-block;top: -23px;
+    right: 49px; position: absolute;}
+.Accountcancellation-box .Accountcancellation-div ul li .p1 em{ background: url(https://image.zhihuishu.com/zhs_yufa_150820/ablecommons/demo/201912/0dacd3eb21f8437797de6982caa869ae.png) no-repeat; width: 20px; height: 20px; display: inline-block;top: -23px;
+    right: 49px; position: absolute;}
+.Accountcancellation-div{ height: 310px;}
+.protocal-div{ padding-top:10px;font-size: 14px;
+color: #2A2A2A;}
+.protocal-div a{font-size: 14px;
+color:  #3D84FF; text-decoration: none;}
+.protocal-div em{ position: relative; top:4px; margin-right:3px; cursor: pointer; background: url(https://image.zhihuishu.com/zhs_yufa_150820/ablecommons/demo/201912/e45af273282c4c7c9232da1a2e306314.png) no-repeat; width: 20px; height: 20px; display: inline-block;}
+.btndiv{ text-align: center; margin: 30px 0 0 -60px; position: relative;}
+.btndiv .js-service-support{ position: absolute;
+    top: -12px;
+    right: 145px;
+    cursor: pointer;}
+.protocal-div em.cur{ background: url(https://image.zhihuishu.com/zhs_yufa_150820/ablecommons/demo/201912/26b4fc902fc84fe887ec4f0c82097494.png) no-repeat;}
+.btndiv .btnspan{ background: #BFBFBF; width: 120px; height: 40px; text-align: center; line-height: 40px; display: inline-block;font-size: 16px;
+color: #FFFFFF; cursor: pointer;}
+.btndiv .btnspan.cur{ background: #3D84FF; cursor: pointer;}
+.btndiv .btnspan.cur:hover{ opacity: 0.9;}
+.Securityverification-div{ margin-top:44px;}
+.Securityverification-div strong{ text-align: center; width: 513px; display: inline-block;font-size: 16px;
+color: #2A2A2A;}
+.Securityverification-div p{font-size: 12px;
+color: #BFBFBF; margin-top:16px;width: 513px;text-align: center;}
+.VerificationCodeinput-div{background: #F6F6F6;
+border: 1px solid #EDEDED; width: 318px; padding:10px; height: 18px; line-height: 18px; margin:20px 0 0 88px;}
+.VerificationCodeinput-div input{ border:0; background: none; width: 228px;line-height: 18px;}
+.VerificationCodefont-span{font-size: 14px;
+    color: #BFBFBF;width: 90px;
+    display: inline-block;
+    text-align: right; cursor: pointer;}
+    .VerificationCodefont-span.cur{ color: #3D84FF;}
+.SecurityverificationNextstepbtn{ margin-top:217px;}
+.CancellationIndication-div { width: 510px; margin-top:53px;}
+.CancellationIndication-div strong{font-size: 16px;
+color: #2A2A2A;}
+.CancellationIndication-div p{font-size: 16px;
+color: #2A2A2A; margin-top:32px; line-height: 23px;}
+.CancellationIndicationNextstepbtn{ margin:176px 0 0 19px;}
+.CancellationIndicationNextstepbtn .btnspan{ margin-right:15px;}
+.ForgetPhonestep-div ul li{ float: left; text-align: center; width: 84px; margin-right:25px; position: relative;}
+.ForgetPhonestep-div ul li .number-span{ background: #F6F6F6; width: 36px; height: 36px;border-radius:100%; font-size: 14px;
+color: #1A1D1E; display: inline-block; text-align: center; line-height: 36px;}
+.ForgetPhonestep-div ul li .number-span.cur{ background: #3D84FF;font-size: 14px;
+color: #fff;}
+.ForgetPhonestep-div ul li p{font-size: 14px;
+color: #2A2A2A; margin-top:5px;}
+.ForgetPhoneFirstStep-div{  margin:25px 0 0 87px;}
+.ForgetPhonestep-div ul li em{ background: url(https://image.zhihuishu.com/zhs_yufa_150820/ablecommons/demo/201912/294c70e2f13c4c69a4eb2372ac41ff42.png) no-repeat; width: 55px; height: 2px; display: inline-block; position: absolute; top:16px; right:-40px;}
+.ForgetPhoneFirstStep-div ul li label{ height:40px; line-height: 40px;font-size: 14px;
+color: #777777;}
+.ForgetPhoneFirstStep-div ul li{ margin-bottom:40px; height:38px;}
+.ForgetPhoneFirstStep-div ul li .inputdiv{background: #F6F6F6;
+border: 1px solid #EDEDED; width: 278px; height: 18px;padding:10px; margin-left:10px;}
+.ForgetPhoneFirstStep-div ul li .inputdiv input{ width: 278px;}
+.errorhint-div{font-size: 12px;
+color: #F94F17; position: absolute;     left: 245px;
+    bottom: 48px;}
+.ForgetPhonestep-div{ margin:15px 0 0 107px; height: auto; overflow: hidden;}
+.ForgetPhonepop .nano{ height: 355px;}
+.ForgetPhoneSecondStep-div { margin-left:84px;}
+.ForgetPhoneSecondStep-div ul li { margin-top: 34px;} 
+.ForgetPhoneSecondStep-div ul li label{font-size: 14px;
+color: #2A2A2A; margin-right:15px; font-weight:bold;}
+.ForgetPhoneSecondStep-div ul li .Bindphone-span{ font-size: 12px;
+color: #BFBFBF}
+.ForgetPhoneSecondStep-div ul li .inputdiv{background: #F6F6F6;
+border: 1px solid #EDEDED; width: 318px; height: 18px;  padding:10px; margin: 10px 0 0 0; position: relative;}
+.ForgetPhoneSecondStep-div ul li .errorfont{ font-size: 12px;
+color: #F94F17; position: absolute; left: 0; bottom: -22px;}
+.GetVerificationCode{ font-size: 14px;
+color: #BFBFBF;}
+.GetVerificationCode.cur{ font-size: 14px;
+    color: #3D84FF; cursor: pointer;}
+.ClassmateVerificationStep-div h1{ font-size: 14px;
+color: #1A1D1E; margin-top:32px;}
+.ClassmateVerificationStep-div .p1{font-size: 12px;
+color: #777777; margin-top:3px;}
+.ClassmateVerificationStep-div .p2{font-size: 12px;
+color: #2A2A2A; margin-top:15px;}
+.ClassmateVerificationStep-div .p3{font-size: 12px;
+color: #BFBFBF;margin-top:10px;}
+.QRCodeimg-div{ margin-top:12px;}
+.ClassmateVerificationStep-div{ width: 500px; text-align: center; margin:0;}
+.ForgetPhonepop .btndiv{ margin-top:20px;}
+.Accountcancellationlist-ul li{ margin-bottom: 30px;}
+.Authenticationmodificationpop .inputdiv input{     margin-left: 47px;}
+.Authenticationmodificationpop .ForgetPhoneFirstStep-div .inputdiv input{  margin-left: 0px;}
+.Authenticationmodificationpop .Partitionline-em {
+    width: 1px;
+    height: 22px;
+    position: absolute;
+    top: 9px;
+    left: 42px;
+    background: #EDEDED;
+    display: inline-block;
+}
+.Authenticationmodificationpop .ico-em{ background: url(https://image.zhihuishu.com/zhs_yufa_150820/ablecommons/demo/201912/3ab1a4061a7f4ddeb4c53fece221aa47.png) no-repeat; width: 20px; height: 20px; display: inline-block; position: absolute; left: 10px;}
+.Authenticationmodificationpop .Passwordico-em{ background: url(https://image.zhihuishu.com/zhs_yufa_150820/ablecommons/demo/201912/a8cc321063a047a390138808423f383d.png) no-repeat; width: 20px; height: 20px; display: inline-block; position: absolute; left: 10px;}
+.Authenticationmodificationpop .layui-form-select dl dd.layui-this{ background: #EDEDED;font-size: 14px;
+color: #000000;}
+.Authenticationmodificationpop  .layui-form-select dl{ padding: 10px 0;}
+.Authenticationmodificationpop .layui-form-select dl dd{ padding: 0 10px; width: 92.8%; white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+    .Authenticationmodificationpop .layui-form-select dl{ max-height: 180px; width: 300px;}
+    .Authenticationmodificationpop  input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #BFBFBF!important;
+}
+.Authenticationmodificationpop  .layui-form-select .layui-edge{ border-width: 5px;    border-top-color: #c2c2c2;margin-top: -1px;}
+.Authenticationmodificationpop input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #BFBFBF!important;
+}
+.Authenticationmodificationpop input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #BFBFBF!important;
+}
+.Authenticationmodificationpop input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #BFBFBF!important;
+}
+.Authenticationmodificationpop .layui-select-tips{ display: none;}
+.EnrollmentYear-li{ margin-left:-28px;}
+.Authenticationmodificationpop .author-form-item { position: relative; top:-10px; left:-10px;}
+.Authenticationmodificationpop .layui-form-selected .layui-edge{ top:35%;}
+.Authenticationmodificationpop .layui-form-select .layui-edge{top:22%;border-top-color:#F6F6F6!important; background: url(https://image.zhihuishu.com/zhs_yufa_150820/ablecommons/demo/201912/b3c2f403ec3047dd8cd9ff5f9dc0151a.png) no-repeat; width: 17px; height: 16px; display: inline-block;}
+.Authenticationmodificationpop .layui-edge{right: -9px;}
+.Authenticationmodificationpop .ForgetPhonestep-div{    margin: 15px 0 0 166px;}
+.ForgetPhoneSecondStep-div .codeinput{ width: 170px;}
+.ForgetPhoneSecondStep-div{ margin-bottom: 25px;}
+
+.unclick{
+    color: gray;
+}
+.accountPopall-divzidex{ z-index:120px !important;}
